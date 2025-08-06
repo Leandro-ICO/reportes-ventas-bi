@@ -1,2 +1,40 @@
-Paso N Configuracion de credenciales
-git remote -v te dice el repositorio de github (en entrada y salida debe estar la misma)
+PASO N° configuración de las credenciales de GITHUB en visual studio code
+
+-> git config --list : permite verificar las credenciales
+
+-> git config --global user.name "Mi nombre"
+-> git config --global user.email "nramirez@edutecno.com"
+
+
+----------------------------------------------------------------
+Trabajando con GITHUB
+
+-> git init : se ejecuta 1 vez por proyecto
+
+------------------------------------------------------
+-> git add .
+-> git commit -m "Mi primera versión del reporte"
+-> git push origin main
+
+
+------------------------------------------------------
+
+comandos de estado y monitoreo
+git status
+git log
+
+
+------------------------------------------------------
+
+cambiar de rama (crear)
+
+git branch gh-pages -> crear rama nueva (sola una vez por proyecto)
+
+git checkout gh-pages -> cambiarme a la rama recién creada
+
+git push origin gh-pages -> crear la rama en la nube (repositorio remoto de github)
+
+
+desde rama gh-pages -> git merge main
+
+git push origin gh-pagesgi
