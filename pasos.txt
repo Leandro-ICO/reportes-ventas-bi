@@ -38,3 +38,7 @@ git push origin gh-pages -> crear la rama en la nube (repositorio remoto de gith
 desde rama gh-pages -> git merge main
 
 git push origin gh-pagesgi
+
+Si tienes una rama gh-pages, puedes crear una nueva rama a partir de main que contenga solo los archivos para tu sitio web. 
+Esto se hace con git checkout -b gh-pages-temp y luego git push origin gh-pages-temp. Luego, elimina la antigua rama gh-pages con git branch -D gh-pages
+y renombra la nueva rama gh-pages-temp a gh-pages con git branch -m gh-pages-temp gh-pages y git push origin gh-pages. 
