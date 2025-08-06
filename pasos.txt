@@ -1,0 +1,2 @@
+Paso N Configuracion de credenciales
+git remote -v te dice el repositorio de github (en entrada y salida debe estar la misma)
